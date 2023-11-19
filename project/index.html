@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login_page</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav_bar">
+            <ul class="nav_bar_list"><a href="">About</a></ul>
+            <ul class="nav_bar_list"><a href="">Support & Services</a></ul>
+            <ul class="nav_bar_list"><a href="">Email</a></ul>
+            <ul class="nav_bar_list"><a href="">Contact</a></ul>
+        </div>
+    </nav>
+    <form action="hello.html" onsubmit=" return printinfo()" class="login_container">
+        <div class="login_div">
+            <div class="log_in">
+                LogIn
+            </div>
+            <div class="log_in_input">
+                <div class="username">
+                    <label for="username">Username:</label>
+                    <input type="text" id="Username" required> 
+                </div>
+                <div class="password">
+                    <label for="Password">Password:</label>
+                    <input type="password" id="Password" required>
+                </div>
+            </div>
+            <div class="login_btn" id="btn_login" >
+                <button class="btn">login</button>
+            </div>
+            <div class="forgot_password">
+                Forgot Password?
+            </div>
+        </div>
+    </form>
+    <script src="index.js">
+    </script>
+</body>
+</html>
